@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KubOs.iml" filepath="$PROJECT_DIR$/KubOs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Other/Other.iml" filepath="$PROJECT_DIR$/Other/Other.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Prosses/Prosses.iml" filepath="$PROJECT_DIR$/Prosses/Prosses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RuntimeSecurity/RuntimeSecurity.iml" filepath="$PROJECT_DIR$/RuntimeSecurity/RuntimeSecurity.iml" />
+    </modules>
+  </component>
+</project>
