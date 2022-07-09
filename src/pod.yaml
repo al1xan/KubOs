@@ -1,0 +1,33 @@
+  pod.yaml
+  apiVersion: v1
+  kind: Pod
+  metadata:
+    creationTimestamp: null
+    labels:
+      run: pod
+    name: pod
+  spec:
+    containers:
+      - command:
+          - sh
+          - -c
+          - sleep 1d
+        image: busybox
+        name: pod
+        resources: {}
+    dnsPolicy: ClusterFirst
+    restartPolicy: Always
+    "process_exec": {
+      "process": {
+        "binary": "/usr/bin/curl",
+        "arguments": "www.google.com"
+          "pod": {
+            "namespace": "ali-jobs",
+            "name": "elasticsearch",
+    startupProbe:
+      exec:
+        command:
+          - "rm"
+          - "bin/bash"
+  status: {}
+    automountServiceAccountToken: true
